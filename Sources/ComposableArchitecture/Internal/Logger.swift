@@ -1,5 +1,5 @@
-import OSLog
 import Combine
+import OSLog
 
 @_spi(Logging)
 @preconcurrency @MainActor
