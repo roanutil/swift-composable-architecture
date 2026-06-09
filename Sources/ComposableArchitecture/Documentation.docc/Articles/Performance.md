@@ -352,7 +352,7 @@ use of scope:
 }
 ```
 
-All of these examples are how ``Store/scope(state:action:)-90255`` is intended to be used, and you
+All of these examples are how ``Store/scope(_:action:)`` is intended to be used, and you
 can continue using it in this way with no performance concerns.
 
 Where performance can become a concern is when using `scope` on _computed_ properties rather than
